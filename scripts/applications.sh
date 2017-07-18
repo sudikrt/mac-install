@@ -3,13 +3,13 @@ echo "Installing applications"
 
 # Utilities
 
-#brew cask install flux
-#brew cask install flycut
+brew cask install flux
+brew cask install flycut
 #brew cask install spectacle
 #brew cask install dash
-brew cask install postman
+#brew cask install postman
 brew cask install google-drive
-#brew cask install dropbox
+brew cask install dropbox
 brew cask install cheatsheet
 #brew cask install macpass
 #brew cask install bettertouchtool
@@ -27,31 +27,31 @@ brew cask install the-unarchiver
 brew cask install google-chrome
 #brew cask install firefox
 
-brew tap caskroom/versions
-brew cask install google-chrome-canary
+#brew tap caskroom/versions
+#brew cask install google-chrome-canary
 
 # Communication
 
-brew cask install slack
+#brew cask install slack
 
 # Text Editors
 
 #brew cask install macdown
-brew cask install sublime-text
-#brew cask install atom
+#brew cask install sublime-text
+brew cask install atom
 #brew install macvim
 
 # Graphics tools
 
 #brew cask install skitch
-brew cask install zeplin
+#brew cask install zeplin
 
 
 
 #brew cask install evernote
 #brew cask install kindle
 #brew cask install kaleidoscope
-brew cask install google-play-music-desktop-player
+#brew cask install google-play-music-desktop-player
 
 # Emulation tools
 
@@ -59,4 +59,4 @@ brew cask install google-play-music-desktop-player
 
 # Usefull scripts
 
-brew install youtube-dl
+#brew install youtube-dl

@@ -3,12 +3,12 @@ echo 'Customizing OS X configuration'
 
 
 # hide the dock
-defaults write com.apple.dock autohide -bool true
-killall Dock
+#defaults write com.apple.dock autohide -bool true
+#killall Dock
 
 # fast key repeat rate, requires reboot to take effect
-defaults write ~/Library/Preferences/.GlobalPreferences KeyRepeat -int 1
-defaults write ~/Library/Preferences/.GlobalPreferences InitialKeyRepeat -int 15
+#defaults write ~/Library/Preferences/.GlobalPreferences KeyRepeat -int 1
+#defaults write ~/Library/Preferences/.GlobalPreferences InitialKeyRepeat -int 15
 
 # set finder to display full path in title bar
 defaults write com.apple.finder '_FXShowPosixPathInTitle' -bool true
@@ -18,16 +18,16 @@ defaults -currentHost write com.apple.ImageCapture disableHotPlug -bool true
 #to revert use defaults -currentHost delete com.apple.ImageCapture disableHotPlug
 
 # Always open everything in Finder's list view.
-defaults write com.apple.Finder FXPreferredViewStyle Nlsv
+#defaults write com.apple.Finder FXPreferredViewStyle Nlsv
 
 # Show the ~/Library folder.
 chflags nohidden ~/Library
 
 # Finder: Shows all extensions
-defaults write com.apple.finder AppleShowAllExtensions -boolean true
+#defaults write com.apple.finder AppleShowAllExtensions -boolean true
 
 # Finder: show hidden files by default
-defaults write com.apple.finder AppleShowAllFiles -bool true
+#defaults write com.apple.finder AppleShowAllFiles -bool true
 
 # Finder: allow text selection in Quick Look
 defaults write com.apple.finder QLEnableTextSelection -bool true
@@ -39,7 +39,7 @@ defaults write com.apple.desktopservices DSDontWriteNetworkStores -bool true
 defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
 
 # Expand save panel by default
-defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
+#defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
 
 # Save to disk (not to iCloud) by default
 defaults write NSGlobalDomain NSDocumentSaveNewDocumentsToCloud -bool false
