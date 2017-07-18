@@ -20,7 +20,7 @@ Open up the OS X Terminal and run the following commands:
 ```sh
 mkdir -p ~/workspace
 cd ~/workspace
-git clone https://github.com/filipmaelbrancke/mac-install.git
+git clone https://github.com/jeroenmols/mac-install.git
 cd mac-install
 ```
 
@@ -32,4 +32,4 @@ If you're setting up a machine run the following:
 ./setup-machine.sh
 ```
 
-The list of installed applications is found in: [applications.sh] (https://github.com/filipmaelbrancke/mac-install/blob/master/scripts/applications.sh)
+The list of installed applications is found in: [applications.sh] (https://github.com/jeroenmols/mac-install/blob/master/scripts/applications.sh)
