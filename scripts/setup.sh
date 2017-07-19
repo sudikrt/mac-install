@@ -27,6 +27,6 @@ source ${MY_DIR}/android.sh
 source ${MY_DIR}/applications.sh
 
 
-#source ${MY_DIR}/configurations.sh
+source ${MY_DIR}/configurations.sh
 
 source ${MY_DIR}/finished.sh

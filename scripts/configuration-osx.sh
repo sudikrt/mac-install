@@ -51,6 +51,14 @@ defaults write com.apple.TextEdit RichText -int 0
 defaults write com.apple.TextEdit PlainTextEncoding -int 4
 defaults write com.apple.TextEdit PlainTextEncodingForWrite -int 4
 
+# Allow apps from anywhere
+sudo spctl --master-disable
+
+# Show username + login screen in top right
+sudo defaults write /Library/Preferences/.GlobalPreferences MultipleSessionEnabled -bool 'YES'
+sudo defaults write /Library/Preferences/com.apple.loginwindow SHOWFULLNAME -bool 'YES'
+
+
 killall Finder
 killall Dock
 killall SystemUIServer

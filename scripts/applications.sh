@@ -8,7 +8,7 @@ brew cask install flycut
 #brew cask install spectacle
 #brew cask install dash
 #brew cask install postman
-brew cask install google-drive
+#brew cask install google-drive
 brew cask install dropbox
 brew cask install cheatsheet
 #brew cask install macpass
