@@ -14,7 +14,10 @@ Based on :
 Open up the OS X Terminal and run the following:
 
 ```sh
-./setup-mac-install.sh
+mkdir -p ~/Documents/workspace
+cd ~/Documents/workspace
+git clone git@github.com:nisrulz/mac-install.git
+cd mac-install
 ```
 
 ### Setup Machine
